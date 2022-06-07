@@ -1,0 +1,63 @@
+.banner {
+    background-image: url('https://img.freepik.com/free-vector/dentist-medical-background-with-3d-tooth-design_1017-26095.jpg?w=1380&t=st=1650202393~exp=1650202993~hmac=0b349179b41cda6a21bd5accb50ef3d35e548af029d285fa3cbdcab23a794fcf');
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid skyblue;
+}
+.banner-text {
+    text-align: left;
+    padding-left: 7%;
+    font-family: sans-serif;
+    margin-top: 10%;
+    color: #0E3386;
+}
+
+.heading1 {
+    font-size: 3rem;
+    color: #0076CE;
+    /* color: #50b8e7; */
+    margin-bottom: 0;
+}
+
+.heading2 {
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 3rem;
+    font-weight: 200;
+    color: 	#254858;
+}
+
+.banner-text h4 {
+    color: #0076CE;
+}
+.banner-text p {
+
+    font-size: 1.12rem;
+}
+.banner-text span {
+    color: 	#254858;
+    font-weight: bolder;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .banner {
+        margin: 0 auto;
+        width: 99%;
+        height: 70vh;
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    .heading1 {
+        font-size: 2rem;
+    }
+    .heading2 {
+        font-size: 2rem;
+    }
+
+    .banner-text span {
+        color: white;
+    }
+  }

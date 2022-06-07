@@ -1,0 +1,53 @@
+.container {
+  /* background-color: #1da4ff; */
+  background-color: #50b8e7;
+}
+
+.header-container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+.brand-name{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.link {
+    text-decoration: none;
+    margin-left: 1em;
+    color: white;
+    transition: color ease-in-out 300ms;
+  }
+
+
+  .link:hover {
+    color: #1b4388;
+  }
+  
+  .active-link {
+    text-decoration: none;
+    margin-left: 1em;
+    transition: color ease-in-out 300ms;
+    color: #1b4388;
+  }
+
+  .sign-out-button {
+    border: none;
+    outline: none;
+    /* text-decoration: none; */
+    margin-left: 1em;
+    color: white;
+    /* transition: color ease-in-out 300ms; */
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .header-container {
+        width: 98%;
+        flex-direction: column;
+    }
+  }

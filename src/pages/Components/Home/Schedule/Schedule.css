@@ -1,0 +1,55 @@
+.schedule-container {
+    background-color: #002D62;
+    width: 90%;
+    margin: 6em auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.schedule-text{
+    order: 2;
+    width: 45%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.schedule-text h2 {
+    font-weight: 200;
+    color: white;
+    margin-bottom: 0;
+}
+
+.schedule-text p {
+    color: whitesmoke;
+}
+.schedule-text button{
+    width: 60%;
+    box-shadow: none;
+}
+
+.img-container {
+    width: 45%;
+}
+
+
+.schedule-img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .schedule-container {
+        width: 99%;
+        flex-direction: column;
+    }
+    
+    .schedule-text {
+        width: 95%;
+        padding: 1em;
+    }
+    .img-container {
+        order: 1;
+        width: 100%;
+    }
+  }

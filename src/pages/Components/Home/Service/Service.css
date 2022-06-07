@@ -1,0 +1,48 @@
+.single-service {
+  width: 20%;
+  padding: 2em;
+  text-align: center;
+  /* border: 2px solid #6CB4EE; */
+  border-radius: 10px;
+  /* box-shadow: 10px 10px #00BFFF; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+h2,
+p {
+  color: #000f89;
+}
+
+span {
+  color: #1f75fe;
+}
+
+img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 0.5em 1.3em;
+  border: none;
+  border-radius: 2em;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  background-color: #6cb4ee;
+  color: #000f89;
+}
+
+button:hover {
+  background-color: #000f89;
+  color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .single-service {
+    width: 75%;
+    padding: 2em;
+    text-align: center;
+  }
+}
